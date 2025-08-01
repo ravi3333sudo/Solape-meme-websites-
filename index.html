@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolApe - The King of Solana Memes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>🦍 SolApe</h2>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#tokenomics" class="nav__link">Tokenomics</a></li>
+                <li><a href="#roadmap" class="nav__link">Roadmap</a></li>
+                <li><a href="#community" class="nav__link">Community</a></li>
+            </ul>
+            <button class="btn btn--primary nav__cta">Buy Now</button>
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">SolApe - The King of Solana Memes</h1>
+                    <p class="hero__subtitle">Join the wildest ape on the fastest blockchain. Moon mission starts now! 🚀</p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary btn--lg">Buy SolApe</button>
+                        <button class="btn btn--outline btn--lg">Join Telegram</button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/461699bf-cec9-4fbb-8655-c1d0aa9aec60.png" alt="SolApe Character" class="hero__character">
+                </div>
+            </div>
+        </div>
+        <div class="hero__floating-icons">
+            <div class="floating-icon">💎</div>
+            <div class="floating-icon">🚀</div>
+            <div class="floating-icon">⚡</div>
+            <div class="floating-icon">🌙</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section__title">Meet SolApe</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>SolApe isn't just another meme coin - he's the alpha ape of the Solana ecosystem! Born from the fastest blockchain, SolApe combines lightning-fast transactions with meme magic to create the ultimate crypto experience.</p>
+                    <p>With his street-smart attitude and space-bound ambitions, SolApe is ready to take the community to new heights. No taxes, no BS - just pure ape energy powered by Solana's revolutionary technology.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3 class="stat__number" data-target="2500000">$0</h3>
+                            <p class="stat__label">Market Cap</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat__number" data-target="5420">0</h3>
+                            <p class="stat__label">Holders</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat__number" data-target="1000000000">0</h3>
+                            <p class="stat__label">Total Supply</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__images">
+                    <div class="character-gallery">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/eac93e54-7b8d-4038-8688-5ebd59bde550.png" alt="SolApe Streetwear" class="character-img">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/694e4239-8982-483f-8a71-d227e8e79589.png" alt="SolApe Space Suit" class="character-img">
+                    </div>
+                    <div class="video-placeholder">
+                        <div class="video-play-btn" data-video="intro">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <p>Character Introduction Video</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+        <div class="container">
+            <h2 class="section__title">SolApe Economics</h2>
+            <div class="tokenomics__content">
+                <div class="tokenomics__chart">
+                    <canvas id="tokenomics-chart"></canvas>
+                </div>
+                <div class="tokenomics__details">
+                    <div class="tokenomics__features">
+                        <div class="feature">
+                            <h3>🚫 No Tax</h3>
+                            <p>0% buy/sell tax for maximum trading freedom</p>
+                        </div>
+                        <div class="feature">
+                            <h3>🔒 Liquidity Locked</h3>
+                            <p>Liquidity permanently locked for security</p>
+                        </div>
+                        <div class="feature">
+                            <h3>🎯 Ownership Renounced</h3>
+                            <p>Contract ownership renounced - community driven</p>
+                        </div>
+                    </div>
+                    <div class="tokenomics__distribution">
+                        <h3>Token Distribution</h3>
+                        <div class="distribution-item">
+                            <span class="color-dot" style="background: #1FB8CD"></span>
+                            <span>90% Liquidity Pool</span>
+                        </div>
+                        <div class="distribution-item">
+                            <span class="color-dot" style="background: #FFC185"></span>
+                            <span>5% Marketing</span>
+                        </div>
+                        <div class="distribution-item">
+                            <span class="color-dot" style="background: #B4413C"></span>
+                            <span>5% Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2 class="section__title">Journey to the Moon</h2>
+            <div class="roadmap__timeline">
+                <div class="roadmap__item">
+                    <div class="roadmap__icon">🚀</div>
+                    <div class="roadmap__content">
+                        <h3>Phase 1: Launch & Community Building</h3>
+                        <p>Token launch, website, social media, initial marketing push</p>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__icon">💱</div>
+                    <div class="roadmap__content">
+                        <h3>Phase 2: Exchange Listings</h3>
+                        <p>Major DEX listings, partnerships, influencer collaborations</p>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__icon">🎨</div>
+                    <div class="roadmap__content">
+                        <h3>Phase 3: NFT Collection</h3>
+                        <p>SolApe NFT collection launch, exclusive holder benefits</p>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__icon">🌐</div>
+                    <div class="roadmap__content">
+                        <h3>Phase 4: Metaverse Integration</h3>
+                        <p>Gaming integration, virtual world presence, utility expansion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section id="videos" class="video-gallery">
+        <div class="container">
+            <h2 class="section__title">SolApe Videos</h2>
+            <div class="video-grid">
+                <div class="video-card" data-video="meet">
+                    <div class="video-thumbnail">
+                        <div class="video-play-overlay">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/461699bf-cec9-4fbb-8655-c1d0aa9aec60.png" alt="Meet SolApe">
+                    </div>
+                    <h3>Meet SolApe</h3>
+                </div>
+                <div class="video-card" data-video="tokenomics">
+                    <div class="video-thumbnail">
+                        <div class="video-play-overlay">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/eac93e54-7b8d-4038-8688-5ebd59bde550.png" alt="Tokenomics Explained">
+                    </div>
+                    <h3>Tokenomics Explained</h3>
+                </div>
+                <div class="video-card" data-video="community">
+                    <div class="video-thumbnail">
+                        <div class="video-play-overlay">
+                            <div class="play-icon">▶</div>
+                        </div>
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/694e4239-8982-483f-8a71-d227e8e79589.png" alt="Community Highlights">
+                    </div>
+                    <h3>Community Highlights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2 class="section__title">Join the SolApe Army</h2>
+            <div class="community__content">
+                <div class="community__stats">
+                    <div class="community-stat">
+                        <h3 class="community-stat__number" data-target="12500">0</h3>
+                        <p>Telegram Members</p>
+                    </div>
+                    <div class="community-stat">
+                        <h3 class="community-stat__number" data-target="8900">0</h3>
+                        <p>Twitter Followers</p>
+                    </div>
+                    <div class="community-stat">
+                        <h3 class="community-stat__number" data-target="6700">0</h3>
+                        <p>Discord Members</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://t.me/solape" target="_blank" class="social-link telegram">
+                        <span>📱</span>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://twitter.com/solape" target="_blank" class="social-link twitter">
+                        <span>🐦</span>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://discord.gg/solape" target="_blank" class="social-link discord">
+                        <span>💬</span>
+                        <span>Discord</span>
+                    </a>
+                </div>
+                <div class="how-to-buy">
+                    <h3>How to Buy SolApe</h3>
+                    <div class="buy-steps">
+                        <div class="buy-step">
+                            <div class="step-number">1</div>
+                            <p>Install Phantom Wallet</p>
+                        </div>
+                        <div class="buy-step">
+                            <div class="step-number">2</div>
+                            <p>Buy SOL on Exchange</p>
+                        </div>
+                        <div class="buy-step">
+                            <div class="step-number">3</div>
+                            <p>Connect to Jupiter/Raydium</p>
+                        </div>
+                        <div class="buy-step">
+                            <div class="step-number">4</div>
+                            <p>Swap SOL for $SOLAPE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>🦍 SolApe</h3>
+                    <p>The King of Solana Memes</p>
+                </div>
+                <div class="footer__links">
+                    <a href="https://t.me/solape" target="_blank">Telegram</a>
+                    <a href="https://twitter.com/solape" target="_blank">Twitter</a>
+                    <a href="https://discord.gg/solape" target="_blank">Discord</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 SolApe. All rights reserved. This is a meme coin - invest responsibly.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal hidden">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <div class="modal__video">
+                <h3 id="modal-title">Video Title</h3>
+                <div class="video-placeholder-large">
+                    <div class="video-message">
+                        <h4>🎬 Video Coming Soon!</h4>
+                        <p>This video is currently being produced. Stay tuned to our social channels for updates!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
